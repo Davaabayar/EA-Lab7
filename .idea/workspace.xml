@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de3a4c69-f28e-40e9-bd6b-434ac2265d54" name="Default Changelist" comment="" />
+    <list default="true" id="de3a4c69-f28e-40e9-bd6b-434ac2265d54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab7-Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Lab7-Report.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note-sheet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Note-sheet.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/cs544/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$b7-Report.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~WRL1635.tmp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +39,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Populate">
+  <component name="RunManager" selected="Application.AppGraph">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.mum.cs544.App" />
       <module name="Lab7-Optimization" />
@@ -85,10 +94,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Populate" />
         <item itemvalue="Application.AppGraph" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.AppJoinFetch" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Populate" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575402505033</updated>
-      <workItem from="1575402514436" duration="11938000" />
+      <workItem from="1575402514436" duration="13717000" />
     </task>
     <servers />
   </component>
@@ -122,22 +131,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="205" key="GridCell.Tab.0.bottom" timestamp="1575413501532">
+    <state width="1323" height="205" key="GridCell.Tab.0.bottom" timestamp="1575419301403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="205" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575413501532" />
-    <state width="1323" height="205" key="GridCell.Tab.0.center" timestamp="1575413501531">
+    <state width="1323" height="205" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575419301403" />
+    <state width="1323" height="205" key="GridCell.Tab.0.center" timestamp="1575419301403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="205" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575413501531" />
-    <state width="1323" height="205" key="GridCell.Tab.0.left" timestamp="1575413501531">
+    <state width="1323" height="205" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575419301403" />
+    <state width="1323" height="205" key="GridCell.Tab.0.left" timestamp="1575419301403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="205" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575413501531" />
-    <state width="1323" height="205" key="GridCell.Tab.0.right" timestamp="1575413501532">
+    <state width="1323" height="205" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575419301403" />
+    <state width="1323" height="205" key="GridCell.Tab.0.right" timestamp="1575419301403">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="205" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575413501532" />
+    <state width="1323" height="205" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575419301403" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1575404903407">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
