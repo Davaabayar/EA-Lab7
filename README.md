@@ -6,12 +6,12 @@ In this lab we tried and compared different methods to optimize N+1 problem.
 ###LazyCollection (N)	
 N+1 issue is still there but, query is simplified. It is useful for situations where full data is not needed, for example number of result. size(), iscontain(), isEmpty()
 It make use of count() of query.
-
-    @OneToMany (cascade={CascadeType.PERSIST})
-    @JoinColumn (name="clientid")
-    @LazyCollection(LazyCollectionOption.EXTRA)
-    private List<Pet> pets;
-    
+```java
+@OneToMany (cascade={CascadeType.PERSIST})
+@JoinColumn (name="clientid")
+@LazyCollection(LazyCollectionOption.EXTRA)
+private List<Pet> pets;
+```    
 ###Batchsize	(N/batchSize)
 Reduce number of database hits by loading batchsize collections at a time.
 
