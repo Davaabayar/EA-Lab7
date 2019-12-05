@@ -31,18 +31,21 @@ private List<Pet> pets;
 ###Join Fetch query	(1)	
 Inner join
 ```java
+//association in entity
 @OneToMany (cascade={CascadeType.PERSIST})
 @JoinColumn (name="clientid")
 private List<Pet> pets;
-```
-###TypedQuery<Owner> 1
-Outer join
-```java
+//query in app
 query = em.createQuery("from Owner o JOIN FETCH o.pets", Owner.class);
-Entity Graph query	1	EntityGraph<Owner> graph = em.createEntityGraph(Owner.class);
+```
+###Entity Graph query	1	
+```java
+EntityGraph<Owner> graph = em.createEntityGraph(Owner.class);
 graph.addAttributeNodes("pets");
+
 TypedQuery<Owner> query = em.createQuery("from Owner",Owner.class);
 query.setHint("javax.persistence.fetchgraph", graph);
+
 List<Owner> ownerlist = query.getResultList();
 ```
 Here is the main code for App.java
